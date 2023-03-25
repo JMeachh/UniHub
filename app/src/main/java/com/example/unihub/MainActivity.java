@@ -21,10 +21,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        Calendar calendar = Calendar.getInstance();
-        String currentDate = DateFormat.getDateInstance(DateFormat.FULL).format(calendar.getTime());
-        TextView date = findViewById(R.id.date);
-        date.setText(currentDate);
+//        Calendar calendar = Calendar.getInstance();
+//        String currentDate = DateFormat.getDateInstance(DateFormat.FULL).format(calendar.getTime());
+//        TextView date = findViewById(R.id.date);
+//        date.setText(currentDate);
 
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
